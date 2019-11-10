@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-export namespace Heavy {
+namespace Heavy {
     /**
      * unsigned integer
      */
