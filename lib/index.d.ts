@@ -64,7 +64,7 @@ export type Load = {
  *      heavy.start()
  *      heavy.check() -- throws Boom Error if overloaded
  */
- class Heavy {
+declare class Heavy {
     /**
      * Create a new instance of Heavy
      * @param {"@hapi/heavy".Heavy.Options} options
@@ -74,7 +74,7 @@ export type Load = {
     /**
      * Current load statistics
      */
-    public load: Heavy.Load
+    public load: Load
 
     /**
      * Start sampling the process for load.
